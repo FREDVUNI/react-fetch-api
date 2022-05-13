@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-poppins: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--font-poppins);
+  background-color: #212426;
+}
+
+.app {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 2rem;
+  letter-spacing: 0.9px;
+  color:#ccc;
+  margin-top: 46px;
+  /* font-family: 'Rock Salt', cursive;
+  text-transform:capitalize; */
+}
+h1 span{
+  color:#009578;
+}
+.empty {
+  width: 100%;
+  margin-top: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty h2 {
+  font-size: 1.25rem;
+  color: #f9d3b4;
+  font-family: var(--font-poppins);
+}
+
+.container {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 200px 0px 200px;
+}
+.c {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 200px 0px 200px;
+}
+.cover {
+  width: 50%;
+  float: left;
+  height:300px;
+  position:relative;
+}
+
+.cover img{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  overflow:hidden;
+}
+.content {
+  margin-top:40px;
+  width: 50%;
+  height:300px;
+  float: right;
+  position:relative;
+  overflow:hidden;
+}
+.link{
+  justify-content: space-between;
+}
+.link{
+  padding:1rem;
+  text-decoration:none;
+  color:#ccc;
+  font-size: 18px;
+}
+.link:hover{
+  color:#009578;
+}
+.content h1{
+  font-size:16px;
+  letter-spacing:2px
+}
+.content button{
+  margin-top:20px;
+}
+.user {
+  width: 150px; 
+  height: 180px;
+  margin: 1.5rem;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  border: none;
+  flex-direction:row;
+}
+.details{
+  margin-top:35px;
+  margin-bottom:15px;
+}
+.details button{
+  margin-top:20px;
+}
+
+.detailsQ{
+  margin-top:35px;
+  margin-bottom:15px;
+  text-align:center;
+}
+.detailsQ button{
+  margin:20px auto;
+}
+h2{
+  color:#ccc;
+}
+p{
+  color:#ccc;
+}
+.user p{
+  flex-basis:1;
+}
+.image{
+  flex-basis:1;
+  width:100%;
+  height:100%;
+}
+.imageBack{
+  width:100%;
+  height:100%;
+}
+.button {
+  display: flex;
+  height: 40px;
+  padding: 0;
+  background: #009578;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #000;
+  height: 100%;
+}
+@media only screen and (max-width: 700px) {
+  .cover,
+  .content{
+    width:100%;
+    height:400px;
+    justify-content:center;
+    align-items:center;
+   }
+}
+@media screen and (max-width: 600px) {
+  .app {
+    padding: 4rem 2rem;
+  }
+  p{
+    text-align:center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .app {
+    padding: 4rem 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align:center;
+  }
+
+  .container {
+    margin-top: 2rem;
+  }
+  p{
+    text-align:center;
+  }
+}
