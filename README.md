@@ -13,6 +13,10 @@ Make sure you have the following installed on your local machine:
 - Node.js (v12 or above)
 - npm (Node Package Manager)
 
+### Demo
+
+https://www.awesomescreenshot.com/video/18636546?key=45d9b3516e99fc160c3b5628ea1abc9c
+
 ### Installation
 
 1. Clone the repository:
