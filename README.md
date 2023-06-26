@@ -15,7 +15,7 @@ Make sure you have the following installed on your local machine:
 
 ### Demo
 
-https://www.awesomescreenshot.com/video/18636546?key=45d9b3516e99fc160c3b5628ea1abc9c
+[video](https://www.awesomescreenshot.com/video/18636546)
 
 ### Installation
 
