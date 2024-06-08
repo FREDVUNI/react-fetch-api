@@ -24,7 +24,6 @@ const Quotes = () => {
     const getQuote = () =>{
         let index = Math.floor(Math.random() * quotes.length)
         setQuote(quotes[index])
-        console.log(quotes)
     }
 
     useEffect(()=>{
