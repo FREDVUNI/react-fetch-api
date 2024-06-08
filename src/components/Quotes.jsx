@@ -28,6 +28,7 @@ const Quotes = () => {
 
     useEffect(()=>{
        fetchQuote()
+        console.log(quote)
     },[])
     return (
         <>
