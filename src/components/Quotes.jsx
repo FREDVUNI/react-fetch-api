@@ -39,7 +39,6 @@ const Quotes = () => {
                 <div className="detailsQ">
                     <p>"{quote.text}</p>
                     <p>{quote.author === null ? quote.author = 'Author unknown':quote.author} </p>
-                    <p>{quote.author}</p>
                     <button type="button" className="button" onClick={getQuote}>
                         <span className="button__text">click</span>
                     </button>  
