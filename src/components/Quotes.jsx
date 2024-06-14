@@ -15,6 +15,8 @@ const Quotes = () => {
             setQuote(data[0])
             setQuotes(data)
             setLoad(true)
+            console.log(quote)
+            console.log(quotes)
         })
         .catch(error=>{
             console.log(error.message || `something went wrong.`)
@@ -28,7 +30,6 @@ const Quotes = () => {
 
     useEffect(()=>{
        fetchQuote()
-        console.log(quote)
     },[])
     return (
         <>
