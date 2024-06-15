@@ -37,7 +37,7 @@ const Quotes = () => {
             <div className="container">
                 <div className="detailsQ">
                     <p>"{quote?.text}"</p>
-                    <p>{quote?.author || 'Author unknown'}</p>
+                    <p>{quote?.author.replace(",Type.fit", "") || 'Author unknown'}</p>
                     <button type="button" className="button" onClick={getRandomQuote}>
                         <span className="button__text">Click</span>
                     </button>
