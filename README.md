@@ -13,9 +13,7 @@ Make sure you have the following installed on your local machine:
 - Node.js (v12 or above)
 - npm (Node Package Manager)
 
-### Demo
-
-[video](https://www.awesomescreenshot.com/video/18636546)
+### screenshot
 
 ### Installation
 
