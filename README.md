@@ -14,6 +14,8 @@ Make sure you have the following installed on your local machine:
 - npm (Node Package Manager)
 
 ### screenshot
+![image](https://github.com/user-attachments/assets/d77d3e36-400e-4f26-86a2-f5ae3502410f)
+
 
 ### Installation
 
